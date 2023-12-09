@@ -25,6 +25,9 @@ try {
     jokeE1.innerText = data[0].joke;
 
 } catch (error) {
+    btnE1.innerText="An error happend.....try agian later :)"
+    btnE1.disabled =  false;
+    btnE1.innerText= "Loading......";
     console.log(error);
     
 }
